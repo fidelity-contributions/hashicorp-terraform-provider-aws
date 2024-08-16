@@ -48,7 +48,7 @@ This data source exports the following attributes in addition to the arguments a
 * `arn` - Key ARN of the asymmetric CMK from which the public key was downloaded.
 * `customer_master_key_spec` - Type of the public key that was downloaded.
 * `encryption_algorithms` - Encryption algorithms that AWS KMS supports for this key. Only set when the `key_usage` of the public key is `ENCRYPT_DECRYPT`.
-* `id` - Key ARN of the asymmetric CMK from which the public key was downloaded.
+* `id` - Unique identifier of the asymmetric CMK from which the public key was downloaded.
 * `key_usage` - Permitted use of the public key. Valid values are `ENCRYPT_DECRYPT` or `SIGN_VERIFY`
 * `public_key` - Exported public key. The value is a DER-encoded X.509 public key, also known as SubjectPublicKeyInfo (SPKI), as defined in [RFC 5280](https://tools.ietf.org/html/rfc5280). The value is Base64-encoded.
 * `public_key_pem` - Exported public key. The value is Privacy Enhanced Mail (PEM) encoded.
